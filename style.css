@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 header .left {
@@ -225,12 +225,15 @@ color: rgb(7, 143, 234);;
 
 
 }
-.contact{
+.contact
+{
     display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .contacttitle{
     display: flex;
-    pa
+    
 }
 #work:hover{
 color: #888888;
