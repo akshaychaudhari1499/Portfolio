@@ -1,0 +1,171 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    padding: 15px 20px;
+    grid-template-columns: auto 1fr auto;
+    position: relative;
+
+    width: 100%;
+}
+
+header .left {
+    margin-left: 90px;
+    padding-top: 5px;
+    display: flex;
+}
+
+header .right {
+    text-align: right;
+    align-items: center;
+    margin-right: 90px;
+    padding: 17px;
+}
+
+.right a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.square {
+    margin-top: 4px;
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+
+    background-color: rgb(251, 59, 6);
+
+}
+
+.square:hover {
+    height: 25px;
+    width: 25x;
+    border-radius: 50%;
+    background-color: rgb(35, 213, 85);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.intro {
+    font-size: large;
+    margin-left: 30px;
+}
+
+.intro h1 {
+    font-size: 70px;
+    color: orangered;
+}
+
+.intro p {
+    font-size: 60px;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    width: 1100px;
+    background-color: greenyellow;
+}
+
+.name {
+    height: 12px;
+    width: 190px;
+    color: inherit;
+    display: grid;
+    font-size: 25px;
+}
+
+.name #title {
+    margin-top: 50px;
+
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.tesla {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.info {
+    font-size: 25px;
+    margin-top: 20px;
+    display: grid;
+
+    margin-left: 50px;
+}
+
+.desc {
+    font-weight: 200;
+    color: #888888;
+}
+
+.link {
+    margin-top: 20px;
+    width: fit-content;
+
+
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.link p:hover {
+
+    color: orangered;
+}
+
+rightarrow {
+    color: orangered;
+}
+
+.project1 {
+    display: grid;
+
+}
+
+.img {
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+
+}
+
+.screenshot {
+
+    width: 900px;
+    margin-left: 220px;
+
+}
+
+#im {
+    width: inherit;
+    height: 600px;
+    border: 9px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px #888888;
+
+
+}
